@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Allan';
+}
+h2 {
+    font-family: 'Allan';
+}
+
+.outer {
+    background-color: #f3f1ba;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    font-size: calc(10px + 1vmin); 
+}
+
+.zebra {
+    content: "";
+    background: url(images/zebra.jpg);
+    opacity: 0.07;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute; 
+    z-index: 1;   
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.main-body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow-wrap: normal;
+    align-items: center;
+    justify-content: center;
+    background-color: #09d9f5;
+    padding: 1.2vw;
+    margin-top: 2vh;
+    min-width: 75vw;
+    max-width: 90vw;
+    min-height: 72vh;
+    z-index: 10;   
+    background-repeat: no-repeat;
+    background-size: contain;
+    background: url(images/ocean.jpg);
+    background-position: center center;
+    border-style: outset;
+    border-width: 0.2em;
+}
+
+.main-content {
+    background-color: salmon;
+    display: flex;
+    flex-direction: column;
+    margin: 4vh;
+    min-width: 30vw;
+    min-height: 36vw;
+    max-width: 680px;
+    text-align: center;
+    align-content: center;
+    background-color: #bcf3f5;
+    opacity: 0.72;
+    border-style: inset;
+    border-width: 0.1em;
+}
+
+.main-content>p {
+    opacity: 1;
+    z-index: 99;  
+    margin: 15px;
+}
+
+.home-header {
+    font-size: calc(22px + 1vmin);
+    margin-top: 5vh;
+    color: #929494;
+}
+
+.links{
+    margin-top: 6vh;
+}
+
+.footer {
+background-color: #ddcd65;
+font-size: 17px;
+position: fixed;
+bottom: 0;
+width: 100%;
+padding: 0.7vh;
+text-align: center;
+font-family: 'Allan';
+}
