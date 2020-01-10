@@ -8,10 +8,12 @@ h1 {
 }
 h2 {
     font-family: 'Allan';
+    color: #af9e30;
 }
 
+
 .outer {
-    background-color: #f3f1ba;
+    background-color: #f0eda2;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -24,14 +26,13 @@ h2 {
 .zebra {
     content: "";
     background: url(images/zebra.jpg);
-    opacity: 0.07;
+    opacity: 0.095;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
     position: absolute; 
     z-index: 1;   
-    background-repeat: no-repeat;
     background-size: cover;
   }
 
@@ -40,7 +41,7 @@ h2 {
     flex-direction: row;
     flex-wrap: wrap;
     overflow-wrap: normal;
-    align-items: center;
+    align-items: stretch;
     justify-content: center;
     background-color: #09d9f5;
     padding: 1.2vw;
@@ -55,6 +56,12 @@ h2 {
     background-position: center center;
     border-style: outset;
     border-width: 0.2em;
+    margin-bottom: 3.3vh;
+    border-top-color: #ccbc53;
+    border-left-color: #ccbc53;
+    border-right-color: #f0eda2;
+    border-bottom-color: #f0eda2;
+    
 }
 
 .main-content {
@@ -71,13 +78,19 @@ h2 {
     opacity: 0.72;
     border-style: inset;
     border-width: 0.1em;
+    border-top-color: #09d9f5;
+    border-left-color: #09d9f5;
+    border-right-color: #a8e9f1;
+    border-bottom-color: #a8e9f1;
 }
 
 .main-content>p {
     opacity: 1;
     z-index: 99;  
     margin: 15px;
+    font-family: 'Dekko'
 }
+
 
 .home-header {
     font-size: calc(22px + 1vmin);
